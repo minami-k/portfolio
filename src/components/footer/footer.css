@@ -1,0 +1,14 @@
+.sns-link {
+    color: #000;
+    font-size: 20px;
+    margin-right: 20px;  
+}
+.sns-link:last-child{
+    margin-right: 0;
+}
+.footer-info{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}

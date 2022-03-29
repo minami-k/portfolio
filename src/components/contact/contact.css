@@ -1,0 +1,17 @@
+.contact{
+    margin-bottom: 5rem;
+}
+.email-address{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.email-address:hover{
+    text-decoration: underline;
+}
+
+.env-icon{
+    font-size: 20px;
+    color:#713A00;
+}

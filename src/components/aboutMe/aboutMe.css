@@ -1,0 +1,47 @@
+.about-me {
+  background-image: url(../../img/top-bg.jpg);
+  position: relative;
+  height: 600px;
+}
+.about-me-child{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+
+  }
+.top-words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.top-words h1,
+.top-words p.top-intro {
+  font-family: "Ramaraja", serif;
+  margin: 0;
+  color: #fff;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+.top-words h1 {
+  font-size: 45px;
+}
+.top-words a{
+    color: #fff;
+    display: block;
+    margin-top: 2rem;
+}
+p.top-intro {
+  font-size: 18px;
+}
+.me-desc{
+  width: 60%;
+  margin: 0 auto 5rem;
+}
+
