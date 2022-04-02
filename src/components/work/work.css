@@ -1,44 +1,48 @@
-h2, h3{
-    font-family: 'Ramaraja', serif;
+h2,
+h3 {
+  font-family: "Ramaraja", serif;
 }
-.projects{
-    margin-bottom: 5rem;
+.projects {
+  margin-bottom: 5rem;
 }
-.project-desc{
-    width: max-content;
-    margin: auto;
-    margin-bottom: 5rem;
+.project-desc {
+  width: max-content;
+  margin: auto;
+  margin-bottom: 5rem;
 }
-.project-desc h3{
-    text-align: left;
-    margin-bottom: 3px;
+.project-desc h3 {
+  text-align: left;
+  margin-bottom: 5px;
 }
 
-.project-img{
-    width: 300px;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 10px;
+.project-img {
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.project-img img{
-    transition-duration: 0.3s;
+.project-img img {
+  transition-duration: 0.3s;
 }
-.project-img:hover img{
-    transform: scale(1.2);
-    transition-duration: 0.3s;
+.project-img:hover img {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
 }
-.project-right{
-    width: 300px;
+.project-right {
+  width: 350px;
+  margin-left: 20px;
+  text-align: left;
 }
-.project-link{
-    margin-top: 2rem;
+.project-link {
+  margin-top: 2rem;
 }
 button.link-button {
   align-items: center;
   appearance: none;
-  background-color: #F0EFEF;
+  background-color: #f0efef;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#959595 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #959595 0 -3px 0 inset;
   box-sizing: border-box;
   border-radius: 10px;
   cursor: pointer;
@@ -52,39 +56,63 @@ button.link-button {
   position: relative;
   text-align: left;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow 0.15s, transform 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
+  will-change: box-shadow, transform;
   padding: 15px 10px;
-  font-family: 'Ramaraja', serif;
-
+  font-family: "Ramaraja", serif;
 }
 
 button.link-button:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
 }
 
 button.link-button:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #959595 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #959595 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 button.link-button:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
+  box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
 }
 
-button.link-button a{
-    color: #424141;
-    font-size: 17px;
+button.link-button a {
+  color: #424141;
+  font-size: 17px;
 }
+@media screen and (max-width: 768px){
+    .project-desc{
+        width: 400px;
+    }
+    .project-img {
+        width: 400px;
+    }
+    .project-right {
+        width: 400px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+  .project-img {
+    margin: auto;
+    margin-right: 0;
+    width: 100%;
+  }
 
-@media  screen and (max-width: 480px) {
-    .project-img{
-        margin: auto;
-        margin-right: 0;
-
-    }}
+  .project-desc {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.project-right {
+    width: 100%;
+    margin-top: 30px;
+}
+}

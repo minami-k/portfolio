@@ -20,7 +20,12 @@ const AboutMe = () => {
     </div>
     <div className='has-text-centered'>
       <h2 className='is-size-3 my-5'>About me</h2>
-      <p className="me-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p className="me-desc">Hello my name is Minami and I just started my journey as a front-end developer. 
+
+I am always open to learn new skills and frameworks. So far I especially enjoy building web apps with React.
+
+For the last couple of years, I have built websites for multiple companies mainly using WordPress and I have always been responsible and dedicated to my works. And what is more, I've been loving what I do.
+</p>
     </div>
     </>
   );
