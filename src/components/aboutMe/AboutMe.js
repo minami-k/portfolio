@@ -2,6 +2,7 @@ import React from "react";
 import "./aboutMe.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import resume from "../../pdf/resume.pdf"
 
 const AboutMe = () => {
   return (
@@ -14,7 +15,7 @@ const AboutMe = () => {
           I'm Minami
         </h1>
         <p className="top-intro">I create webisites and build things for web</p>
-        <a href="" rel="noreferrer">Resume &#8594;</a>
+        <a href={resume} without rel="noreferrer noopener" target="_blank">Resume &#8594;</a>
       </div>
     </div>
     </div>

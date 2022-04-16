@@ -45,3 +45,9 @@ p.top-intro {
   margin: 0 auto 5rem;
 }
 
+@media screen and (max-width: 786px){
+.me-desc{
+  width: 85%;
+}
+}
+

@@ -12,6 +12,7 @@ const Skill = () => {
         <li className='py-2 px-4 has-background-dark has-text-white-bis'>React.js</li>
         <li className='py-2 px-4 has-background-dark has-text-white-bis'>GitHub</li>
         <li className='py-2 px-4 has-background-dark has-text-white-bis'>Firebase</li>
+        <li className='py-2 px-4 has-background-dark has-text-white-bis'>Bootstrap</li>
         <li className='py-2 px-4 has-background-dark has-text-white-bis'>WordPress</li>
       </ul>
     </div>
