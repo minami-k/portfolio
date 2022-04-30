@@ -33,6 +33,9 @@ h3 {
   margin-left: 20px;
   text-align: left;
 }
+.language-used{
+  font-weight: bold;
+}
 .project-link {
   margin-top: 2rem;
 }

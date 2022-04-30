@@ -1,0 +1,7 @@
+body, footer{
+    background-color: #fff;
+    background-image: radial-gradient(#000 1%, transparent 2%), radial-gradient(#000 1%, transparent 2%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+}

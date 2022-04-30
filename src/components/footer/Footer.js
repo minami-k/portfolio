@@ -7,7 +7,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="has-text-centered">
+    <div className="has-text-centered mt-5">
       <a
         href="https://github.com/minami-k"
         target="_blank"
@@ -17,7 +17,7 @@ const Footer = () => {
         <FontAwesomeIcon icon={faGithub} />
       </a>
       <a
-        href="https://www.linkedin.com/in/minami-koma-7a4877211/"
+        href="https://www.linkedin.com/in/minami-koma/"
         target="_blank"
         rel="noreferrer"
         className="sns-link"

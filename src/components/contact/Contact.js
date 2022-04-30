@@ -6,7 +6,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <div className="has-text-centered contact">
-      <h2 className="is-size-3 my-5">Get in touch with me</h2>
+      <h2 className="is-size-1 my-5">Get in touch with me</h2>
       <p>
         <a
           href="mailto: minamikoma24@gmail.com"
