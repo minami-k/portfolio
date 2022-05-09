@@ -5,21 +5,26 @@ h3 {
 .projects {
   margin-bottom: 5rem;
 }
+.work-wrap{
+  width:70%;
+  margin: auto;
+}
 .project-desc {
-  width: max-content;
+  width: 50%;
   margin: auto;
   margin-bottom: 5rem;
+  margin-top: 0;
 }
 .project-desc h3 {
-  text-align: left;
   margin-bottom: 5px;
 }
 
 .project-img {
-  width: 250px;
+  width: 350px;
   height: 100%;
   overflow: hidden;
   border-radius: 10px;
+  margin: auto;
 }
 .project-img img {
   transition-duration: 0.3s;
@@ -30,7 +35,7 @@ h3 {
 }
 .project-right {
   width: 350px;
-  margin-left: 20px;
+  margin: auto;
   text-align: left;
 }
 .language-used{
@@ -103,6 +108,9 @@ button.link-button a {
     }
 }
 @media screen and (max-width: 480px) {
+  .work-wrap{
+    width:100%;
+  }
   .project-img {
     margin: auto;
     margin-right: 0;
@@ -116,6 +124,5 @@ button.link-button a {
 }
 .project-right {
     width: 100%;
-    margin-top: 30px;
 }
 }
