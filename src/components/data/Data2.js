@@ -13,7 +13,7 @@ const Data2 = [
     desc: "An official website of a Chinese restaurant located in Japan. Collaborative work with a design team and I was in charge of coding from a mock-up.",
     url: "https://www.hk-charo.com/",
     language:
-      "HTML, CSS, WordPress(customized theme)",
+      "HTML, CSS, WordPress(custom theme)",
   },
   {
     id: "05",

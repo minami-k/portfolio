@@ -9,7 +9,7 @@ const Data = [
         id:"01",
         title: "My Personal Dashboard",
         img: dashboardImg,
-        desc: "Personal dashboard I use daily. I gather everything I need in one place so now I don't have to switch screens. The background photo changes for every refresh. ",
+        desc: "Personal dashboard I use daily. It has everything I need so now I don't need to switch screens to check each piece of information. The background photo changes for every refresh.",
         url: "https://musical-biscotti-efbbf3.netlify.app/",
         github: "https://github.com/minami-k/dashboard",
         language: "HTML, CSS, Tailwind CSS, JavaScript, React, React Hooks, Weather API, New York Times API" 
