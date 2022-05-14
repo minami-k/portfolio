@@ -19,7 +19,7 @@ const Data = [
         id:"02",
         title: "Coffee Log App",
         img: logImg,
-        desc: "A memo for those who brew coffee. The taste of coffee changes, depending on its origin and how you brew it. This app keeps all your recipe in one place so you won't forget the perfect ratio.",
+        desc: "A CRUD memo for those who brew coffee. The taste of coffee changes, depending on its origin and how you brew it. This app keeps all your recipe in one place so you won't forget the perfect ratio.",
         url: "https://candid-cupcake-4a32cd.netlify.app/",
         github: "https://github.com/minami-k/coffee-log-app.git",
         language: "HTML, CSS, Material UI, React, React Router, React hooks, Firebase, Algolia" 

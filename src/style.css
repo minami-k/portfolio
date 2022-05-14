@@ -5,3 +5,12 @@ body, footer{
     background-position: 0 0, 30px 30px;
     background-repeat: repeat;
 }
+.sp{
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    .sp{
+        display: block;
+    }
+}
